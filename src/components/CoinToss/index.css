@@ -1,0 +1,72 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 420px;
+  border-radius: 15px;
+}
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #a35200;
+  font-weight: bold;
+}
+
+.image {
+  height: 180px;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #334155;
+  font-weight: bold;
+}
+.button-toss {
+  background-color: #f9d423;
+  color: #a35200;
+  width: 110px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 0px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.para1 {
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    width: 300px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
